@@ -14,6 +14,7 @@ function mod:init()
 	require(self.scriptPath .."pawns")
 	--require(self.scriptPath .."pilots")
 	--require(self.scriptPath .."weapons")
+	require(self.scriptPath .."weapon")
 end
 
 function mod:load(options, version)
